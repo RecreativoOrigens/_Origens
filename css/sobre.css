@@ -1,0 +1,62 @@
+.time_origens {
+    width: 85%;
+    height: 90%;
+    position: absolute;
+    top:100px;
+    text-align: center;
+    left: 8%;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: inser 0 0 3rem rgba(0,0,0,0.5);
+}
+.time_origens h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#465d20
+}
+.time_conteiner {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    gap: 2rem;
+    width: 80%;
+    align-items: center;
+}
+
+.membro_time {
+
+    align-items: center;
+    height: 300px;
+    background-color: #9db86c;
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: 0.75s;
+}
+
+.membro_time:hover {
+    background-color:#bfd792;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+}
+
+.image_time img {
+    background-color: bisque;
+    border-radius: 300px;
+    width: 150px;
+    filter: saturate(0);
+}
+
+.image_time img:hover {
+    filter: saturate(1);
+}
+
+.info_membro{
+    padding: 5px;
+    text-align: center;
+}
+
+.info_membro h4,
+.info_membro p{
+color: #fff;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
